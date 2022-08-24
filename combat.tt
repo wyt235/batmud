@@ -12,6 +12,11 @@
     cast ${casting_spell}
 }
 
+#action {You feel like you just saved some spell points}{
+    cast ${casting_spell}
+}
+
+
 #action {You lose your concentration and cannot cast the spell} {
     cast ${casting_spell}
 }
