@@ -7,6 +7,11 @@
 
 
 #action {You watch with self-pride as your} { cast ${common_spell} }
+
+#action {You fail miserably in your spell}{
+    cast ${casting_spell}
+}
+
 #action {You lose your concentration and cannot cast the spell} {
     cast ${casting_spell}
 }
