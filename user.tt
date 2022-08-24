@@ -1,0 +1,4 @@
+#ses batmud bat.org 23;
+#delay {1} {username; password}
+#split 16 1;
+#read script/combat.tt

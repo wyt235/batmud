@@ -1,0 +1,12 @@
+#var {common_spell} {mind blast}
+#var {casting_spell} {mind blast}
+
+#action {%1: #} {
+    #var {casting_spell} {%1}
+}
+
+
+#action {You watch with self-pride as your} { cast ${common_spell} }
+#action {You lose your concentration and cannot cast the spell} {
+    cast ${casting_spell}
+}
